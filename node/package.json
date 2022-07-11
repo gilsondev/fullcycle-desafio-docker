@@ -1,0 +1,24 @@
+{
+  "name": "desafio-docker-node",
+  "version": "1.0.0",
+  "description": "Esse desafio segue a seguinte premissa:",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "serve": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilsondev/fullcycle-desafio-docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gilsondev/fullcycle-desafio-docker/issues"
+  },
+  "homepage": "https://github.com/gilsondev/fullcycle-desafio-docker#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
