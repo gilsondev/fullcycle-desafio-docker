@@ -10,7 +10,7 @@ RUN wget https://github.com/jwilder/dockerize/releases/download/$DOCKERIZE_VERSI
     && rm dockerize-alpine-linux-amd64-$DOCKERIZE_VERSION.tar.gz
 
 COPY package.json package-lock.json /usr/src/app/
-COPY src /usr/src/app/
+COPY src /usr/src/app/src
 RUN npm install
 
 EXPOSE 3000

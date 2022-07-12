@@ -23,7 +23,7 @@ services:
     networks:
       - node-network
     volumes:
-      - .:/usr/src/app
+      - /usr/src/app
     depends_on:
       - db
 
